@@ -40,11 +40,12 @@ Documentation on SoC Design from Specifications to RTL to GDSII
 		![image](https://github.com/user-attachments/assets/a139cc12-e08d-42cb-a1b3-a4d54547dcc3)
 		Additional Info:
 		MicroProcessor is part of Microcontroller.
+
  - [Tools_Installation](#Tools_Installation)
    		System Check
-			6GB RAM, 50 GB HDD
-			Ubuntu 24
-			4vCPU
+			1.6GB RAM, 50 GB HDD
+			2.Ubuntu 24
+			3.4vCPU
    
 		Tool check
 
@@ -60,18 +61,21 @@ Documentation on SoC Design from Specifications to RTL to GDSII
 		$ make config-gcc
 		$ make 
 		$ sudo make install
+  
 		![image](https://github.com/user-attachments/assets/98ec8f12-1be9-4cd5-8aa6-28556902030b)
 
 		Iverilog
 		Steps to install iverilog
 		sudo apt-get update
 		sudo apt-get install iverilog
+  
 		![image](https://github.com/user-attachments/assets/6d44bbbd-7a65-428f-a8fd-39be940e2c95)
 
 		gtkwave
 		Steps to install gtkwave
 		sudo apt-get update
 		sudo apt install gtkwave
+  
 		![image](https://github.com/user-attachments/assets/04acf385-0535-4438-bcb5-deb6914f72ca)
 
 		OpenSTA (not needed for SFAL participants)
@@ -87,6 +91,7 @@ Documentation on SoC Design from Specifications to RTL to GDSII
 		$ ../configure  --with-x --with-readline=yes --disable-debug
 		$ make
 		$ sudo make install
+  
 		![image](https://github.com/user-attachments/assets/5b050984-2fe9-4f28-bd2d-aff1acd151e5)
 
 		magic

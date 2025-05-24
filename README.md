@@ -45,7 +45,9 @@ Documentation on SoC Design from Specifications to RTL to GDSII
 			6GB RAM, 50 GB HDD
 			Ubuntu 24
 			4vCPU
+   
 		Tool check
+
 		Yosys
 		$ sudo apt-get update
 		$ git clone https://github.com/YosysHQ/yosys.git
